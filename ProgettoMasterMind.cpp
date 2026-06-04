@@ -198,7 +198,8 @@ void modalitaDecifratore()
             if (attive[i])
             {
                 attiveCount++;
-                if (idx==-1) idx=i;
+                if (idx==-1) 
+					idx=i;
             }
         if (idx==-1)
         {
